@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'optima';
+    src: url('../fonts/optima.ttf');
+}
+@font-face {
+    font-family: 'optima-bold';
+    src: url('../fonts/optima-bold.ttf');
+}
+@font-face {
+    font-family: 'Portico-Diablo';
+    src: url('../fonts/Portico-Diablo.otf');
+}
+@font-face {
+    font-family: 'Portico-Light';
+    src: url('../fonts/Portico-Light.otf');
+}
+@font-face {
+    font-family: 'Portico-Regular';
+    src: url('../fonts/Portico-Regular.otf');
+}
+
+
+
+body,
+ul,
+ol
+{ 
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  outline: none;
+}
+:focus{
+    outline: none !important;
+}
+a{
+    text-decoration: none;
+    transition: 0.5s all;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+    font-size: 54px;
+    line-height: 64px;
+}
+h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+h6{
+    font-size: 21px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,h6{
+    font-family:'Futura-Bold';
+    margin: 0px;
+    color: #fff;
+}
+p{
+    font-family:'JosefinSans-Regular';
+    color: #fff;
+}
