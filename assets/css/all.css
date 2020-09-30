@@ -426,3 +426,32 @@ p{
 .crs-slider .owl-prev:hover{
     background-color: transparent !important;
 }
+.sru-section {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.sru-content {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sru-content .crs-title h2,
+.sru-content .crs-title p{
+    color: #fff;
+}
+.sru-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
