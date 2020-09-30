@@ -53,19 +53,19 @@ h1{
 }
 h2{
     font-size: 42px;
-    font-weight: 700;
+    font-family: 'Portico-Regular';
 }
 h3{
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Portico-Diablo';
 }
 h4{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 27px;
+    font-family: 'Portico-Diablo';
 }
 h5{
     font-size: 24px;
-    font-weight: 700;
+    font-family: 'Portico-Diablo';
 }
 h6{
     font-size: 21px;
@@ -228,4 +228,124 @@ p{
 }
 .mbc-btn:hover{
     color: #fff;
+}
+
+
+/* Product Section */
+.pss-section{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #F3F6F6;
+    overflow: hidden;
+}
+
+.bg-product{
+    width: 100%;
+    height: 600px;
+    border: 8px solid #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.bg-product img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bg-product-btn {
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 125px;
+    border-radius: 8px;
+}
+.bg-name{
+    font-size: 30px;
+    font-family: 'Portico-Diablo';
+    color: #000000;
+}
+.bg-price{
+    font-size: 21px;
+    font-family: 'Optima-bold';
+    color: #000000;
+}
+.grid-product {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-box {
+    width: 24%;
+    background-color: #fff;
+    padding: 10px 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.pro-img img {
+    width: 100%;
+}
+.product-box h6 {
+    padding: 20px 0px 10px;
+    font-size: 14px;
+    font-family: 'Portico-Diablo';
+}
+.product-box h6 a{
+    color: #000;
+}
+.price-btn{
+    font-size: 17px;
+    font-family: 'Optima-bold';
+    color: #000;
+}
+.pss-box:nth-child(2) .bg-product-btn {
+    right: 50px !important;
+    left: unset !important;
+}
+
+.pss-box{
+    position: relative;
+    z-index: 99;
+}
+.pss-box:nth-child(1):before{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: -60px;
+    background-image: url(../img/b1.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.pss-box:nth-child(2):before{
+    content: '';
+    position: absolute;
+    bottom: 380px;
+    right: -180px;
+    background-image: url(../img/b2.png);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.pss-box:nth-child(3):before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -70px;
+    background-image: url(../img/b3.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
