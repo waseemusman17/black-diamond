@@ -185,10 +185,17 @@ p{
     border-bottom-left-radius: 25px;
     border-right: 0px;
 }
-.search-bar .input-group-text{
-    border-left: 0px;
+.search-bar .input-group-text button{
+    border-left: 0px !important;
     border-bottom-right-radius: 25px !important;
     border-top-right-radius: 25px !important;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+}
+.search-bar .input-group-text{
+    padding: 0px;
+    border: 0;
     background-color: transparent;
 }
 
@@ -454,4 +461,94 @@ p{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: -1;
+}
+
+.newsletter-form{
+    padding-top: 50px;
+}
+.newsletter-form .input-group-text{
+    padding: 0px;
+    border: 0;
+    background-color: transparent;
+}
+.newsletter-form button{
+    border-radius: 25px !important;
+    background-color: #663300;
+    padding: .375rem .75rem;
+    border:0px;
+    width: 150px;
+    color: #fff;
+    height: 50px;
+    margin-left: -30px;
+    z-index: 9;
+}
+.newsletter-form .form-control{
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.4);
+}
+
+
+footer{
+    width: 100%;
+}
+.footer-content {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.foo-logo {
+    display: flex;
+    justify-content: center;
+}
+.foo-social-link {
+    margin: auto;
+    max-width: 166px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.foo-social-link li a {
+    border: 1px solid #663300;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #663300;
+}
+
+.foo-social-link li a:hover {
+    background-color: #663300;
+    color: #fff;
+}
+.copyright{
+    border-top:1px solid rgba(0,0,0,0.1);
+}
+.copyright-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.copyright-content p{
+    font-size:14px;
+}
+.copyright-content a{
+    font-size: 14px;
+    font-family: 'Optima';
+    color: #000000;
+}
+.copyright-content ul {
+    display: flex;
+}
+.copyright-content ul li {
+    padding-right: 20px;
+}
+.copyright-content ul li:last-child {
+    padding-right: 0px;
 }
