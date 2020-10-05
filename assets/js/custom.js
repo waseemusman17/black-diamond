@@ -18,3 +18,29 @@ $('.page-view-1').click(function(){
 $('.page-view-2').click(function(){
     $('.pbs-boxes').addClass('new-layout');
 });
+
+
+
+ // This button will increment the value
+ $('.qtyplus').click(function(e) {
+    e.preventDefault();
+    fieldName = $(this).attr('field');
+    var currentVal = parseInt($(this).siblings('input[name=' + fieldName + ']').val());
+  
+    if (!isNaN(currentVal)) {
+        $(this).siblings('input[name=' + fieldName + ']').val(currentVal + 1);
+    } else {
+        (this).siblings('input[name=' + fieldName + ']').val(0);
+    }
+});
+$(".qtyminus").click(function(e) {
+    e.preventDefault();
+    fieldName = $(this).attr('field');
+    var currentVal = parseInt($(this).siblings('input[name=' + fieldName + ']').val());
+  
+    if (!isNaN(currentVal) && currentVal > 1) {
+        $(this).siblings('input[name=' + fieldName + ']').val(currentVal - 1);
+    } else {
+        $(this).siblings('input[name=' + fieldName + ']').val(0);
+    }
+});
