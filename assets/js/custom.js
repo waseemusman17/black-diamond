@@ -44,3 +44,10 @@ $(".qtyminus").click(function(e) {
         $(this).siblings('input[name=' + fieldName + ']').val(0);
     }
 });
+
+
+
+// Mobile Menu Active
+$('.mobile-bar i').click(function(){
+    $('.menu-item').toggleClass('menu-active');
+});

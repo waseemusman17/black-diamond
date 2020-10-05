@@ -199,6 +199,11 @@ p{
     border: 0;
     background-color: transparent;
 }
+.mobile-bar{
+    display: none;
+}
+
+
 
 /* Home Page Banner */
 .mbs-section{
@@ -503,6 +508,7 @@ footer{
     width: 80%;
     margin: auto;
     padding: 50px 0px;
+    text-align:center;
 }
 
 .foo-logo {
@@ -1115,4 +1121,214 @@ input[type=number]::-webkit-outer-spin-button {
 .pub-social-link a:hover{
     background-color:#663300;
     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Media Query
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+@media(max-width:1024px){
+    .header-menu-items:first-child li{
+        padding-right: 15px;
+    }
+    .header-logo{
+        width: 160px;
+        top: 10px;
+    }
+}
+
+@media(max-width:992px){
+    h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+
+    .bg-product{
+        height: 400px;
+    }
+    .bg-product-btn{
+        width: 300px;
+        height: 100px;
+    }
+    .bg-name{
+        font-size: 24px;
+    }
+    .bg-price{
+        font-size: 18px;
+    }
+    .grid-product{
+        flex-flow: row wrap;
+    }
+    .product-box{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+
+    .header-logo {
+        width: 120px;
+        top: 8px;
+    }
+    .mobile-bar{
+        display: block;
+        color: #000;
+    }
+    .menu-item{
+        position: absolute;
+        background-color: #fff;
+        flex-direction: column;
+        border: 0px;
+        left: -100%;
+        padding: 20px 40px 0px;
+        height: 100vh;
+        width: 200px;
+        z-index: 999;
+        transition: 0.5s all;
+    }   
+    .menu-item.menu-active{
+        left: -40px;
+        transition: 0.5s all;
+    }
+    .header-menu-items:first-child li{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .search-bar .form-control{
+        width: 130px;
+    } 
+    .search-bar .input-group{
+        margin:0px !important;
+    }
+    .search-bar .form-group{
+        margin-top: 1rem;
+    }
+    .header-menu-items:last-child ul{
+        align-items: center;
+    }
+    .header-menu-items:last-child ul a img {
+        width: 30px;
+    }
+
+}
+
+
+@media(max-width:767px){
+    h2{
+        font-size: 30px;
+    }
+
+    .topbar p{
+        font-size: 12px;
+    }
+    .header-contact ul{
+        justify-content: center;
+    }
+    .header-contact a{
+        font-size: 10px;
+    }
+    li.search-bar {
+        display: none;
+    }
+    .header-menu-area{
+        height: 60px;
+    }
+    .header-logo {
+        width: 90px;
+        top: 10px;
+    }
+
+
+    .mbc-btn{
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .bg-product-btn{
+        width: 200px;
+        height: 60px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .bg-name{
+        font-size: 20px;
+    }
+    .bg-price {
+        font-size: 16px;
+    }
+    .product-box{
+        width: 100%;
+    }
+    .pss-box:nth-child(2) .bg-product-btn{
+        right: 0px !important;
+        left: 0px !important;
+    }
+    .grid-product{
+        padding: 0px;
+    }
+    .pss-box:nth-child(1):before,
+    .pss-box:nth-child(2):before,
+    .pss-box:nth-child(3):before{
+        display: none;
+    }
+    .crs-title p{
+        text-align: center;
+    }
+    .newsletter-form .form-control{
+        width: 300px;
+    }
+    .newsletter-form button{
+        width: 120px;
+        font-size: 14px;
+    }
+    .copyright-content{
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+    .copyright-content ul{
+        margin-bottom: 20px;
+    }
+    .foo-logo{
+        width: 150px;
+        margin: auto;
+    }
+    .foo-logo img {
+        width: 100%;
+    }
+    .foo-social-link{
+        max-width: 130px;
+    }
+    .foo-social-link li a{
+        width: 30px;
+        height: 30px;
+    }
 }
