@@ -1259,6 +1259,19 @@ input[type=number]::-webkit-outer-spin-button {
         margin-bottom: 50px;
     }
 
+
+    /* Bundle Page */
+    .pbs-search{
+        height: 61px;
+    }
+    .pbs-boxes .product-box{
+        width: 48%;
+    }
+    .new-layout .product-box{
+        width: 100%;
+    }
+    
+
 }
 
 
@@ -1389,5 +1402,28 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .ocp-box{
         margin-bottom: 20px;
+    }
+
+
+
+    /* Bundle Page */
+    .pbs-content{
+        flex-flow: row wrap;
+    }
+    .pbs-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .pbs-right{
+        width: 100%;
+    }
+    .sort-by .form-control{
+        width: 155px;
+    }
+    .pbs-boxes .product-box{
+        width: 100%;
+    }
+    .bss-img{
+        height: 250px;
     }
 }
