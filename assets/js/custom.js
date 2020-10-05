@@ -7,3 +7,14 @@ $('.crs-slider .owl-carousel').owlCarousel({
 });
 $( ".crs-slider .owl-next").html('<i class="fa fa-angle-right" aria-hidden="true"></i>');
 $( ".crs-slider .owl-prev").html('<i class="fa fa-angle-left" aria-hidden="true"></i>');
+
+
+
+// Add Class on Shop Page
+
+$('.page-view-1').click(function(){
+    $('.pbs-boxes').removeClass('new-layout');
+});
+$('.page-view-2').click(function(){
+    $('.pbs-boxes').addClass('new-layout');
+});
