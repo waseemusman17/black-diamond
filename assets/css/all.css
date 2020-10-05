@@ -1272,6 +1272,21 @@ input[type=number]::-webkit-outer-spin-button {
     }
     
 
+    /* Product Detail Page */
+    .product-title{
+        padding: 10px 0px;
+    }
+    .pud-content{
+        flex-flow: row wrap;
+    }
+    .pub-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .pub-detail{
+        width: 100%;
+    }
+
 }
 
 
@@ -1425,5 +1440,12 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .bss-img{
         height: 250px;
+    }
+
+
+    /* Product Detail Page */
+    .pub-btn a{
+        font-size: 14px;
+        height: 40px;
     }
 }
