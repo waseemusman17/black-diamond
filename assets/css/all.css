@@ -468,6 +468,7 @@ p{
 .sru-content .crs-title h2,
 .sru-content .crs-title p{
     color: #fff;
+    text-align: center;
 }
 .sru-overlay{
     position: absolute;
