@@ -86,6 +86,7 @@ h3,
 h4,
 h5,h6{
     margin: 0px;
+    color: #000;
 }
 p{
     font-family: 'ABeeZee-Regular';
@@ -1134,8 +1135,114 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Quality Page
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+.quality{
+    background-color: #F3F6F6;
+}
+.tre-section{
+    width: 100%;
+}
+.tre-content{
+    padding: 50px 0px 0px;
+    background-color: #fff;
+}
+.tre-recipe {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.recipe-step {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.step-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.step-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.recipe-step p {
+    max-width: 200px;
+    text-align: center;
+}
 
 
+.qct-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.qct-content{
+    padding: 50px 0px;
+    background-color: #fff;
+}
+.qct-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.qct-box {
+    width: 45%;
+}
+.qct-box-list{
+    position: relative;
+    padding-left: 20px;
+    max-width: 450px;
+}
+.qct-box-list:before{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/black-list.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.qct-box-list p {
+    padding: 5px 0px 15px;
+}
+.qct-box:last-child {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+.beef-img {
+    width: 300px;
+    height: 300px;
+}
+.beef-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.beef-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ifo-step h6{
+    color: #B69E00;
+    font-family: 'Portico-Diablo';
+    font-size: 18px;
+}
+.ifo-step {
+    text-align: right;
+}
 
 
 
@@ -1297,6 +1404,17 @@ input[type=number]::-webkit-outer-spin-button {
         width: 100%;
     }
 
+
+    /* Quality Page */
+    .qct-info{
+        flex-flow: row wrap;
+    }
+    .qct-box{
+        width: 100%;
+    }
+    .qct-box:last-child{
+        margin-top: 30px;
+    }
 }
 
 
@@ -1457,5 +1575,29 @@ input[type=number]::-webkit-outer-spin-button {
     .pub-btn a{
         font-size: 14px;
         height: 40px;
+    }
+
+
+    /* Quality Page */
+    .recipe-step{
+        width: 100%;
+    }
+    .qct-box:last-child{
+        height: 210px;
+    }
+    .beef-img{
+        height: 200px;
+    }
+    .qct-box-list h4{
+        font-size: 17px;
+    }
+    .qct-box-list:before{
+        top: 3px;
+        left: -5px;
+        width: 15px;
+        height: 15px;
+    }
+    .ifo-step h6{
+        font-size: 16px;
     }
 }
