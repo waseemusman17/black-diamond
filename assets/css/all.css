@@ -18,6 +18,14 @@
     font-family: 'Portico-Regular';
     src: url('../fonts/Portico-Regular.otf');
 }
+@font-face {
+    font-family: 'ABeeZee-Regular';
+    src: url('../fonts/ABeeZee-Regular.ttf');
+}
+@font-face {
+    font-family: 'ABeeZee-Italic';
+    src: url('../fonts/ABeeZee-Italic.ttf');
+}
 
 
 
@@ -69,7 +77,7 @@ h5{
 }
 h6{
     font-size: 21px;
-    font-family: 'optima';
+    font-family: 'ABeeZee-Regular';
 }
 
 h1,
@@ -80,7 +88,7 @@ h5,h6{
     margin: 0px;
 }
 p{
-    font-family: 'optima';
+    font-family: 'ABeeZee-Regular';
     margin: 0px;
     font-size: 16px;
 }
@@ -96,10 +104,10 @@ p{
 
 /* Header Section */
 .topbar {
-    background-color: #663300;
+    background-color: #B69E00;
 }
 .topbar p{
-    font-family: 'Portico-Light';
+    font-family: 'ABeeZee-Regular';
     text-align: center;
     font-size: 14px;
     padding: 5px 0px;
@@ -114,20 +122,20 @@ p{
     padding: 15px 0px;
 }
 .header-contact a{
-    font-family: 'Portico-Light';
+    font-family: 'ABeeZee-Regular';
     font-size: 12px;
     color:  #663300;
 }
 .header-menu-items:first-child a {
     font-size: 14px;
-    font-family: 'Portico-light';
+    font-family: 'ABeeZee-Regular';
     color: #000;
 }
 .header-menu-items:first-child a:hover{
-    color: #663300;
+    color: #B69E00;
 }
 .active-link{
-    color: #663300 !important;
+    color: #B69E00 !important;
 }
 .header-contact ul li:first-child {
     border-right: 1px solid rgba(0,0,0,0.1);
@@ -233,11 +241,11 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #663300;
+    background-color: #B69E00;
     color: #fff;
     border-radius: 25px;
     font-size: 18px;
-    font-family: 'optima-bold';
+    font-family: 'ABeeZee-Regular';
 }
 .mbc-btn:hover{
     color: #fff;
@@ -285,7 +293,7 @@ p{
 }
 .bg-price{
     font-size: 21px;
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     color: #000000;
 }
 .grid-product {
@@ -314,7 +322,7 @@ p{
 }
 .price-btn{
     font-size: 17px;
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     color: #000;
 }
 .pss-box:nth-child(2) .bg-product-btn {
@@ -409,7 +417,7 @@ p{
 }
 .crs-name {
     padding-top: 40px;
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
 }
 
 .crs-slider .owl-prev {
@@ -482,7 +490,7 @@ p{
 }
 .newsletter-form button{
     border-radius: 25px !important;
-    background-color: #663300;
+    background-color: #B69E00;
     padding: .375rem .75rem;
     border:0px;
     width: 150px;
@@ -495,7 +503,7 @@ p{
     width: 400px;
     height: 50px;
     border-radius: 25px;
-    border: 0px;
+    border: 1px solid #B69E00;
     background-color: rgba(255,255,255,0.3);
     color: rgba(255,255,255,0.4);
 }
@@ -523,18 +531,18 @@ footer{
     padding: 30px 0px;
 }
 .foo-social-link li a {
-    border: 1px solid #663300;
+    border: 1px solid #B69E00;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #663300;
+    color: #B69E00;
 }
 
 .foo-social-link li a:hover {
-    background-color: #663300;
+    background-color: #B69E00;
     color: #fff;
 }
 .copyright{
@@ -550,7 +558,7 @@ footer{
 }
 .copyright-content a{
     font-size: 14px;
-    font-family: 'Optima';
+    font-family: 'ABeeZee-Regular';
     color: #000000;
 }
 .copyright-content ul {
@@ -584,15 +592,15 @@ footer{
     padding: 8px;
     color: black;
     content: "/\00a0";
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
 }
 .own-breadcrumb ul a{
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     font-size: 16px;
     color: #000000;
 }
 .own-breadcrumb li{
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     font-size: 16px;
     color: #000000;
 }
@@ -771,7 +779,7 @@ footer{
     color: #000000;
 }
 .ocp-box:hover a{
-    color: #663300;   
+    color: #B69E00;   
 }
 
 
@@ -837,11 +845,11 @@ footer{
 .pbs-category a{
     font-size: 16px;
     color: #000000;
-    font-family: 'Optima';
+    font-family: 'ABeeZee-Regular';
     text-transform: uppercase;
 }
 a.active-cateory{
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
 }
 .pbs-boxes {
     display: flex;
@@ -854,7 +862,7 @@ a.active-cateory{
     transition: 0.3s all;
 }
 .product-box:hover h6 a{
-    color: #663300;
+    color: #B69E00;
 }
 .pbs-search {
     display: flex;
@@ -868,7 +876,7 @@ a.active-cateory{
 .sort-by label{
     margin: 0;
     padding-right: 10px;
-    font-family: "Optima";
+    font-family: "ABeeZee-Regular";
 }
 .sort-by .form-control{
     width: 200px;
@@ -878,7 +886,7 @@ a.active-cateory{
     background-color: transparent;
     border: 1px solid rgba(0,0,0,0.3);
     color: rgba(0,0,0,0.4);
-    font-family: "Optima";
+    font-family: "ABeeZee-Regular";
     position: relative;
 }
 
@@ -968,7 +976,7 @@ a.active-cateory{
     padding: 20px;
 }
 .add-ons h6{
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     font-size: 18px;
 }
 .add-ons .form-control {
@@ -977,7 +985,8 @@ a.active-cateory{
     border-radius: 25px;
     color: rgba(0,0,0,0.4);
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'ABeeZee-Regular';
 }
 .pub-buy {
     padding: 20px;
@@ -998,26 +1007,27 @@ a.active-cateory{
     padding: 30px 0px 10px;
 }
 
-.pub-btn a{
+.pub-btn button{
     width: 90%;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #663300;
+    border: 1px solid #B69E00;
     border-radius: 25px;
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     font-size: 18px;
-    color: #663300;
+    color: #B69E00;
+    background: transparent;
 }
-.pub-btn a:hover{
-    background-color: #663300;
+.pub-btn button:hover{
+    background-color: #B69E00;
     color: #fff;
 }
-.pub-btn a:first-child{
+.pub-btn button:first-child{
     margin-right: 10px;
 }
-.pub-btn a:last-child{
+.pub-btn button:last-child{
     margin-left: 10px;
 }
 .control input#input {
@@ -1028,7 +1038,7 @@ a.active-cateory{
     height: 35px;
     text-align: center;
     font-size: 14px;
-    font-family: 'Optima';
+    font-family: 'ABeeZee-Regular';
 }
 
 .control .qtyminus {
@@ -1059,7 +1069,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 .pub-class {
-    font-family: 'Optima-bold';
+    font-family: 'ABeeZee-Regular';
     font-size: 18px;
 }
 .pub-class span {
@@ -1075,7 +1085,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .pub-list ul li {
     position: relative;
-    font-family: 'Optima';
+    font-family: 'ABeeZee-Regular';
     font-size: 18px;
 }
 .pub-list ul li:before {
@@ -1111,15 +1121,15 @@ input[type=number]::-webkit-outer-spin-button {
 .pub-social-link a {
     width: 30px;
     height: 30px;
-    border: 1px solid #663300;
+    border: 1px solid #B69E00;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: #663300;
+    color: #B69E00;
 }
 .pub-social-link a:hover{
-    background-color:#663300;
+    background-color:#B69E00;
     color: #fff;
 }
 
