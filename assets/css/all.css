@@ -991,7 +991,7 @@ a.active-cateory{
 }
 .pub-buy {
     padding: 20px;
-    background-color: #f3f6f6;
+    background-color: #F8F8F8;
 }
 .pub-quantity {
     display: flex;
@@ -1289,6 +1289,81 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Recipe Blog Page
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.blog{
+    background-color: #F3F6F6;
+}
+.blg-content{
+    padding-bottom: 50px;
+}
+.blg-box{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.blg-box:last-child{
+    margin-bottom: 0px;
+}
+.blg-img {
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+}
+.blg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blg-description {
+    padding: 20px;
+}
+.blg-description p {
+    padding: 10px 0px 25px;
+}
+.blg-post-date {
+    padding: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.blg-btn {
+    width: 180px;
+    height: 50px;
+    border: 0px;
+    background-color: #B69E00;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 17px;
+    font-family: 'ABeeZee-Regular';
+}
+.blg-post-date {
+    display: flex;
+}
+.blg-post-date a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    color: #000;
+    font-family: 'ABeeZee-Regular';
+}
+.blg-post-date a img {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Media Query
@@ -1458,6 +1533,13 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .qct-box:last-child{
         margin-top: 30px;
+    }
+
+
+
+    /* Blog Page */
+    .blg-img{
+        height: 400px;
     }
 }
 
@@ -1647,5 +1729,20 @@ input[type=number]::-webkit-outer-spin-button {
 
     .product-price{
         flex-flow: row wrap;
+    }
+
+
+    /* Blog Page */
+    .blg-img{
+        height: 300px;
+    }
+    .blg-btn{
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .blg-post-date a{
+        padding-right: 10px;
+        font-size: 12px;
     }
 }
