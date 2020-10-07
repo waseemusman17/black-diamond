@@ -37,6 +37,7 @@ ol
   padding: 0px;
   list-style: none;
   outline: none;
+  font-family: 'ABeeZee-Regular';
 }
 button:focus,
 select:focus,
@@ -1470,7 +1471,151 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Contact us
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
 
+.contact{
+    background-color: #F3F6F6;
+}
+.gms-section{
+    width: 100%;
+}
+.gms-content{
+    padding: 10px;
+    background-color: #fff;
+}
+.cis-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.cis-content {
+    display: flex;
+    justify-content: space-between;
+}
+.cis-box {
+    width: 48%;
+    background-color: #fff;
+}
+.cis-title {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.cis-info {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.cis-info {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.contact-links a {
+    padding-top: 10px;
+    color: #000;
+}
+.contact-links a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    object-fit: contain;
+}
+.cis-social {
+    padding: 20px;
+}
+.cis-social ul {
+    padding-top: 20px;
+    display: flex;
+}
+.cis-social ul li {
+    padding-right: 15px;
+}
+.cis-social ul li a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #B69E00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #B69E00;
+    font-size: 12px;
+}
+.cis-social ul li a:hover{
+    background-color: #B69E00;
+    color: #fff;
+}
+.cis-form {
+    padding: 20px;
+}
+.cis-form form {
+    padding-top: 20px;
+}
+.cis-form input.form-control {
+    border-radius: 25px;
+    color: rgba(0,0,0,0.3);
+    font-size: 14px;
+}
+.cis-form ::placeholder{
+    color: rgba(0,0,0,0.3);
+}
+.cis-form textarea.form-control{
+    border-radius: 10px;
+}
+.cis-form-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #B69E00;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.faq-section {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.faq-content {
+    background-color: #fff;
+}
+.faq-content .card{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;
+}
+.faq-content .card-header{
+    background-color: transparent;
+    border: 0px;
+}
+.faq-content .card-body{
+    padding: 0px 1.25rem 1.25rem;
+}
+.faq-link {
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border: 0px;
+    background: #fff;
+    background-color: transparent;
+    position: relative;
+    font-family: 'Optima-bold';
+}
+.faq-link i{
+    transition: 0.5s all;
+}
+.faq-link.collapsed i {
+    transform: rotate(-90deg);
+    transition: 0.5s all;
+}
 
 
 
@@ -1651,6 +1796,12 @@ input[type=number]::-webkit-outer-spin-button {
     /* Blog Page */
     .blg-img{
         height: 400px;
+    }
+
+
+    /* Contact Us */
+    .gms-content iframe {
+        height: 300px;
     }
 }
 
@@ -1882,5 +2033,21 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .blg-recipe-detail >h4{
         font-size: 20px;
+    }
+
+
+    /* Contact Us */
+    .gms-content iframe {
+        height: 200px;
+    }
+    .cis-content{
+        flex-flow: row wrap;
+    }
+    .cis-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cis-section{
+        padding: 20px 0px;
     }
 }
