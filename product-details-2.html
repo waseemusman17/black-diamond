@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quality</title>
+    <title>Product Details</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,9 +38,8 @@
                             <i class="fa fa-bars" aria-hidden="true"></i>
                         </div>
                         <ul class="menu-item">
-                            <li><a href="./index.html" class="active-link">Home</a></li>
+                            <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About</a></li>
-                            <li><a href="">Quality</a></li>
                             <li><a href="./bundles.html">Bundles</a></li>
                             <li><a href="">Recipes Blog</a></li>
                             <li><a href="">Contact Us</a></li>
@@ -70,132 +69,119 @@
         </div>
     </header>
 
-    <main class="quality">
-
+    <main class="product">
+        
         <!-- Site Breadcrumb -->
         <div class="own-breadcrumb">
             <div class="container">
                 <div class="own-breadcrumb-items">
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li>Quality</li>
+                        <li><a href="">Buckaroo</a></li>
+                        <li>8 Primal Cuts</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- The Rare Experience -->
-        <section class="tre-section">
+        <!-- product Title -->
+        <div class="product-title">
             <div class="container">
-                <div class="tre-content">
-                    <div class="oss-box-title">
-                        <h1 class="text-center">The Rare Experience</h1>    
+                <h3>GIFT CARDS & SPECIAL ORDERS</h3>
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <section class="pud-section">
+            <div class="container">
+                <div class="pud-content">
+                    <div class="pub-img">
+                        <img src="./assets/img/bg1-product.png" alt="">
                     </div>
-                    <div class="tre-recipe">
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q1.png" alt="">
-                            </div>
-                            <p>Oil & Season</p>
+                    <div class="pub-detail">
+                        <div class="pub-title">
+                            <h5>Selected Gift Price is $250</h5>
                         </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q2.png" alt="">
+                        <div class="add-ons">
+                            <h6>BDB Gift Card</h6>
+                            <div class="product-price">
+                                <input type="radio" id="p1" name="price" value="p1">
+                                <label for="p1">$50 USD</label>
+    
+                                <input type="radio" id="p2" name="price" value="p2">
+                                <label for="p2">$100 USD</label>
+
+                                <input type="radio" id="p3" name="price" value="p3">
+                                <label for="p3">$150 USD</label>
+
+                                <input type="radio" id="p4" name="price" value="p4">
+                                <label for="p4">$200 USD</label>
+    
+                                <input type="radio" id="p5" name="price" value="p5">
+                                <label for="p5">$250 USD</label> 
                             </div>
-                            <p>Set skillet on high heat, allow to warm</p>
                         </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q3.png" alt="">
+                        <div class="pub-buy">
+                            <div class="pub-quantity">
+                                <div class="control">
+                                    <button class="qtyminus bttn bttn-left" field="quant" id="minus">
+                                        <span>-</span>
+                                    </button>
+                                    <input type="number" name="quant" min="1" value="1" class="input" id="input">
+                                    <button field="quant" class="qtyplus bttn bttn-right" id="plus">
+                                        <span>+</span>
+                                    </button>
+                                </div>
+                                <p class="pub-class">$74.99 <span>$87.50</span></p>
                             </div>
-                            <p>Place inside hot skillet</p>
+                            <div class="pub-btn">
+                                <button class="cart-btn" type="submit">Add To Cart</button>
+                                <button class="buy-btn" type="submit">Buy Now</button>
+                            </div>
                         </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q4.png" alt="">
-                            </div>
-                            <p>Wait 30 seconds; turn over</p>
+                        <div class="pub-list">
+                            <ul>
+                                <li>2 lbs. Ground Steakburger</li>
+                                <li>3 lb. Chuck Roast</li>
+                                <li>2 lbs. Primal Steak Cuts (ribeye, new york, tenderloin, sirloin)</li>
+                            </ul>
                         </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q5.png" alt="">
-                            </div>
-                            <p>Wait 30 seconds</p>
-                        </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q6.png" alt="">
-                            </div>
-                            <p>Top with butter; transfer to oven or grill</p>
-                        </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q7.png" alt="">
-                            </div>
-                            <p>Temperature & doneness check!</p>
-                        </div>
-                        <div class="recipe-step">
-                            <div class="step-img">
-                                <img src="./assets/img/q8.png" alt="">
-                            </div>
-                            <p>Garnish, plate & serve</p>
+                        <div class="pub-links">
+                            <ul class="review-star">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            </ul>
+                            <ul class="pub-social-link">
+                                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Quality You can trust -->
-        <section class="qct-section">
+        <!-- Gift Details -->
+        <section class="gds-section">
             <div class="container">
-                <div class="qct-content">
-                    
-                    <div class="oss-box-title">
-                        <h1 class="text-center">Quality You can trust</h1>    
+                <div class="gds-content">
+                    <div class="pub-title">
+                        <h5>Gift Details</h5>
                     </div>
-                    
-                    <div class="qct-info">
-                        <div class="qct-box">
-                            <div class="qct-box-list">
-                                <h4>SELECT YOUR MEATS</h4>
-                                <p>Choose from curated selections of the highest quality premium beef products.</p>
-                            </div>
-                            <div class="qct-box-list">
-                                <h4>GET INSTANT DELIVERY</h4>
-                                <p>Each product is vacuum sealed, flash-frozen, and packaged with care - and personally delivered to your door.</p>
-                            </div>
-                            <div class="qct-box-list">
-                                <h4>SHOW YOUR SUPPORT</h4>
-                                <p>Locally sourced meat produced with 92 percent less food miles than the conventional grocery store!</p>
-                            </div>
-                        </div>
-                        <div class="qct-box">
-                            <div class="beef-info">
-                                <div class="ifo-step">
-                                    <h6>Rare</h6>
-                                    <p>(120°F)</p>
-                                </div>
-                                <div class="ifo-step">
-                                    <h6>Medium Rare</h6>
-                                    <p>(130°F)</p>
-                                </div>
-                                <div class="ifo-step">
-                                    <h6>Medium</h6>
-                                    <p>(135°F)</p>
-                                </div>
-                            </div>
-                            <div class="beef-img">
-                                <img src="./assets/img/beef.png" alt="">
-                            </div>
-                        </div>
+                    <div class="gds-info">
+                        <p>Giving the gift of an online meat delivery from TruBeef, a premium online butcher has never been easier. Give the gift of choice with a TruBeef e-Gift Card. Let that someone special redeem it for an Organic, Grass-fed and Grass-finished Steak Gift Box they will never forget or help them get started on our subscription delivery service. The choice is theirs! </p><br>
+                    <p>Every TruBeef meat delivery box is packed full of all natural, healthy, Grass-fed Steak, Burger, or Roasts. A wonderful gift to give your clients, colleagues, employees, friends, family, or loved ones for any occasion at any time of the year!</p>
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <!-- Sign up to receive updates! -->
-        <section class="sru-section" style="background-image: url('./assets/img/newsletter-banner.png');">
+         <!-- Sign up to receive updates! -->
+         <section class="sru-section" style="background-image: url('./assets/img/newsletter-banner.png');">
             <div class="container">
                 <div class="sru-content">
                     <div class="crs-title">
